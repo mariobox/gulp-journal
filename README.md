@@ -1,6 +1,6 @@
 # gulp-journal
 
-Journaling application made with Gulp and jQuery
+Journaling application made with Gulp and jQuery. This is a practice project at Epicodus code school.
 
 ## Specs
 
