@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog Preview Example</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+    <div id="flashMessage">
+        Your changes have been saved!
+    </div>
+    <div class="blogNewPost">
+        <h1 class="blogPage-title">New Journal Entry</h1>
+        <p class="blogTitle-area">
+            <label>Title</label>
+            <input type="text" id="blogTitleInput">
+        </p>
+        <p class="blogContent-area">
+            <label>Content</label>
+            <textarea id="blogContentInput"></textarea>
+        </p>
+        <p>
+            <button id="previewButton">Preview</button>
+        </p>
+
+
+        <form id="signup">
+            <label for="email">Sign up for updates:</label>
+            <input id="email" type="text">
+            <button type="submit">Submit</button>
+        </form>
+        <br />
+        <h3 id="confirmMessage"></h3>
+
+    </div>
+
+    <div class="blogPreviewArea">
+        <h2 id="blogTitlePreview"></h2>
+        <p>
+            <span id="wordCount"></span>
+            <span id="vowelCount"></span>
+            <span id="consonantCount"></span>
+        </p>
+        <br />
+        <div id="blogContentPreview">
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="build/js/app-min.js"></script>
+</body>
+
+</html>
